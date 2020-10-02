@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
                 ),
                 Padding(
                   padding: EdgeInsets.all(5),
-                  child: Text(entry.key.toString() + ""),
+                  child: Text(entry.value.toString() + ""),
                 )
               ],
             ),
